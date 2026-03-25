@@ -4,6 +4,9 @@ const commande = {
   total: 18.5,
   livree: false,
 };
+const user = { id: 42, nom: "Alice", role: "admin", ville: "Paris" };
+
+const { nom, role } = user;
 
 console.log();
 
